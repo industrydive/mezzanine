@@ -42,7 +42,7 @@ class TinyMceWidget(forms.Textarea):
     """
 
     class Media:
-        js = (static("mezzanine/tinymce/tinymce.min.js"),
+        js = (static("mezzanine/tinymce/tiny_mce.js"),
               static(settings.TINYMCE_SETUP_JS))
         css = {'all': (static("mezzanine/tinymce/tinymce.css"),)}
 
